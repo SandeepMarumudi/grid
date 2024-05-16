@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            #hover{
+                display: grid;
+                grid-template-columns: repeat(4,100px);
+                grid-template-rows:repeat(8,100px) ;
+                border: 2px solid;
+                grid-gap: 1px;
+                width:1000px;
+                height: 1000px;
+                justify-content: center;
+                align-content: center;
+            }
+            div{
+                border:2px solid red ;
+
+            }
+            #hover:hover{
+                gap: 5px;
+            }
+            #firstrow{
+                grid-column: 1/5; 
+
+            }
+            #secrow{
+                grid-column: 1/5;   
+            }
+            #thirdrow{
+                grid-column: 1/4;   
+            }
+            #forthrow{
+                grid-column: 1/4; 
+
+            }
+            #fivrow{
+                grid-column: 1/5;  
+            }
+            #thirdcolmn{
+                grid-column: 4;
+                 grid-row: 3/5;  
+                
+            }
+
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div id="hover">
+            <div id="firstrow"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOMTO7yOkPNIzw_QZhYriyeM70CCVNLQcJEB1Yj1zNDQ&s" height="80"></div>
+            <div id="secrow" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOMTO7yOkPNIzw_QZhYriyeM70CCVNLQcJEB1Yj1zNDQ&s" height="80"></div>
+            <div id="thirdrow">3</div>
+            <div id="thirdcolmn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOMTO7yOkPNIzw_QZhYriyeM70CCVNLQcJEB1Yj1zNDQ&s" height="80" style="-webkit-transform: rotateY(90deg);"></div>
+            <div id="forthrow">5</div>
+           <div id="fivrow">6</div>
+            <!-- <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>--->
+            
+            
+        </div>
+    </body>
+</html>

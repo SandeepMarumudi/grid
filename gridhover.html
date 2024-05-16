@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            #hover{
+                display: grid;
+                grid-template-columns: repeat(4,100px);
+                grid-template-rows:repeat(8,100px) ;
+                border: 2px solid;
+                grid-gap: 1px;
+                width:1000px;
+                height: 1000px;
+                justify-content: center;
+                align-content: center;
+            }
+            div{
+                border:2px solid red ;
+
+            }
+            #hover:hover{
+                gap: 5px;
+            }
+            #hover div:hover{
+                background-color: brown;
+              
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="hover">
+            <div style="grid-column: 1/5; ">1</div>
+            <div style="grid-column: 1/5;">2</div>
+            <div style="grid-column: 1/4;">3</div>
+            <div style="grid-column: 4; grid-row: 3/5;">4</div>
+            <div style="grid-column: 1/4;" >5</div>
+           <div style="grid-column: 1/5;">6</div>
+            <!-- <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>--->
+            
+            
+        </div>
+    </body>
+</html>
